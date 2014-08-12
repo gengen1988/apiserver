@@ -1,0 +1,19 @@
+{
+  "name": "LandingPage",
+  "base": "PersistedModel",
+  "properties": {
+    "section1": {
+      "type": "string"
+    },
+    "section2": {
+      "type": "string"
+    },
+    "section3": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

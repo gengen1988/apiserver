@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Application": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Article": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Section": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Navigation": {
+    "dataSource": "db",
+    "public": true
+  },
+  "LandingPage": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Employee": {
+    "dataSource": "db",
+    "public": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Employee",
+  "base": "User",
+  "properties": {
+    "nickname": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "ALLOW",
+      "accessType": "READ"
+    }
+  ],
+  "methods": []
+}
